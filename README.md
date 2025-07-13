@@ -7,7 +7,7 @@ This project demonstrates a full-stack data engineering pipeline for a simulated
 
 This pipeline simulates order data flowing through a cloud-native data stack, transforming raw records into actionable insights. It includes:
 
-- ELT pipeline processing ~10,000 order records
+- ELT pipeline processing ~3 Million order records
 - Modular medallion architecture in Snowflake (Bronze → Silver → Gold)
 - Data modeling with dbt (fact and dimension tables)
 - Scheduled ELT workflows with Apache Airflow DAGs
